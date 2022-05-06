@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.TaskFragment">
+
+    <ListView
+        android:layout_marginTop="30dp"
+        android:divider="@null"
+        android:dividerHeight="20dp"
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+    <Button
+        android:id="@+id/btn"
+        android:layout_marginLeft="290dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="bottom"
+        android:background="@mipmap/add"
+        android:layout_width="50dp"
+        android:layout_height="50dp">
+    </Button>
+</FrameLayout>

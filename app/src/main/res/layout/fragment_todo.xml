@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.ToDoFragment">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="16dp"
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="未完成"
+        android:textColor="@color/white"/>
+
+    <ListView
+        android:id="@+id/toDoListView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_marginTop="27dp" />
+
+    <TextView
+
+        android:id="@+id/already"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toDoListView"
+        android:layout_marginLeft="20dp"
+        android:text="已完成"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+    <ListView
+        android:id="@+id/alreadyDoListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/already"
+        android:layout_marginTop="30dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/fabnew"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/add"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="@dimen/fab_margin" />
+</RelativeLayout>

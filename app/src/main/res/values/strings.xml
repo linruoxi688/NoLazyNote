@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NoLazyNote</string>
+    <string name="tab_text_1">笔记</string>
+    <string name="tab_text_2">日程</string>
+    <string name="tab_text_3">待办</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="tip_on_clock_running">集中精神！</string>
+    <string name="tip_on_clock_stopped">休息一下！</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
